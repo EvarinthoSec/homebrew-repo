@@ -1,18 +1,18 @@
 class Mtop < Formula
   desc "Cross-platform terminal system monitor"
   homepage "https://github.com/EvarinthoSec/mtop"
-  version "1.0.2"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/EvarinthoSec/mtop/releases/download/v#{version}/mtop-macos-arm64-#{version}.tar.gz"
-      sha256 "9745ea8ab77cb47dcfe0bc24a8ce58042c9c66548502b2945781c20c33e90d0b"
+      sha256 "25cc70bd27c58fed83c0a32e18600ef922d2cd7f017a596f8992c9fe0466f78b"
     end
 
     on_intel do
       url "https://github.com/EvarinthoSec/mtop/releases/download/v#{version}/mtop-macos-x86_64-#{version}.tar.gz"
-      sha256 "e1d542793c6fdb3d7c1e6d33a0e937abe30882f66932f865cccdf35ca50a8374"
+      sha256 "90f54c6602cdfaef159d96a9f3dbb4b8ce8c174979f6074437f263a01608b9ad"
     end
   end
 
